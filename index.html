@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cauculadora.com.br</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="modificar" tamanho >Calculadora</h1>
+
+    <form class="alinhar">
+        <label for="nome"></label>
+        <input type="text" id="numero1" name="nome" placeholder="N1" size="6">
+        
+        <label for="nome"></label>
+        <input type="text" id="numero2" name="nome" placeholder="N2" size="6">
+    </form>
+
+
+    <main>
+        <div class="alinhar">
+        <button class="estilo-botao" id="botaosoma" onclick="somar()"> + </button>
+        <button class="estilo-botao" onclick="subtrair()"> - </button>
+        
+
+     
+        <button class="estilo-botao" id="botaomultiplicacao" onclick="multiplicar()"> x </button>
+        <button class="estilo-botao" onclick="dividir()"> ÷ </button>
+        </div>
+    </main>
+
+
+
+    <div>
+        <p id="resposta"></p>
+    </div>
+
+</body>
+</html>

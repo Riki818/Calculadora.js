@@ -1,0 +1,15 @@
+body{
+    background-color: blueviolet;
+    
+}
+.estilo-botao{
+    width: 36px;
+}
+.alinhar{
+    text-align: center;
+    font-size: 30px;
+}
+.modificar{
+    font-size: 70px;
+    text-align: center;
+}
